@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YvTrafficTimerManager.h"
 
 FOUNDATION_EXPORT double DZPodTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char DZPodTestVersionString[];

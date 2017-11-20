@@ -7,6 +7,7 @@
 //
 
 #import "DZViewController.h"
+#import "YvTrafficTimerManager.h"
 
 @interface DZViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [YvTrafficTimerManager dz_timerWith:0 timerTarget:self timerInterval:2 timerDuration:60 eventHandler:^(BOOL isTimeOut)
+    {
+        NSLog(@"call back timer hander");
+    }];
 }
 
 
