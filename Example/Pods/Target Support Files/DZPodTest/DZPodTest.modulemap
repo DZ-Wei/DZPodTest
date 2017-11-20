@@ -1,0 +1,6 @@
+framework module DZPodTest {
+  umbrella header "DZPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
